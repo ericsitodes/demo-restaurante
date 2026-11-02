@@ -1,0 +1,15 @@
+# Datos: nunca subir Excel de clientes. Solo se permiten los archivos de ejemplo.
+*.xlsx
+*.xls
+*.csv
+!ventas_restaurante.xlsx
+!plantilla-restaurante.xlsx
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# Secretos
+.env
+.streamlit/secrets.toml
